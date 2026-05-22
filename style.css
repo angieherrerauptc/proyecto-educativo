@@ -11,9 +11,9 @@ body{
 }
 
 .hero{
-    min-height:100vh;
     background:linear-gradient(135deg,#b8e7ff,#d9c6ff);
-    padding:30px;
+    padding:30px 60px;
+    padding-bottom:80px;
 }
 
 .navbar{
@@ -38,12 +38,14 @@ body{
     display:flex;
     justify-content:space-between;
     align-items:center;
-    margin-top:80px;
-    gap:40px;
+    gap:60px;
+    max-width:1300px;
+    margin:auto;
+    padding-top:60px;
 }
 
 .hero-text h2{
-    font-size:4rem;
+    font-size:3.2rem;
     line-height:1.1;
     margin-bottom:20px;
     color:#2e2e52;
@@ -81,7 +83,7 @@ body{
 }
 
 .hero-image img{
-    width:400px;
+    width:280px;
 }
 
 .cards-section{
