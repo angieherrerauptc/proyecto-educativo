@@ -14,6 +14,9 @@ body{
 
 .hero{
     background:linear-gradient(135deg,#ffd6e7,#ffe5ec,#f8dfff);
+    padding:30px 60px 80px;
+    border-bottom-left-radius:50px;
+    border-bottom-right-radius:50px;
 }
 
 .navbar{
@@ -160,7 +163,7 @@ body{
 .teacher-text,
 .student-text{
     flex:1;
-    min-width:500px;
+    min-width:300px;
 }
 
 .teacher-text h2,
@@ -238,6 +241,18 @@ footer h3{
 
 /* RESPONSIVE */
 
+@keyframes fadeUp{
+    from{
+        opacity:0;
+        transform:translateY(30px);
+    }
+
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+
 @media(max-width:900px){
 
     .navbar{
@@ -281,15 +296,5 @@ footer h3{
     .student-cards{
         justify-content:center;
     }
-@keyframes fadeUp{
-    from{
-        opacity:0;
-        transform:translateY(30px);
-    }
 
-    to{
-        opacity:1;
-        transform:translateY(0);
-    }
-}
 }
