@@ -25,7 +25,7 @@ body{
 
 .logo{
     font-family:'Noto Serif JP', serif;
-    font-size:3rem;
+    font-size:2.6rem;
     color:#c45c8a;
     text-align:center;
     line-height:1.3;
@@ -246,6 +246,7 @@ footer h3{
     .hero-content{
         flex-direction:column;
         text-align:center;
+        animation:fadeUp 1s ease;
     }
 
     .hero-text h2{
@@ -278,4 +279,15 @@ footer h3{
     .student-cards{
         justify-content:center;
     }
+@keyframes fadeUp{
+    from{
+        opacity:0;
+        transform:translateY(30px);
+    }
+
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
 }
