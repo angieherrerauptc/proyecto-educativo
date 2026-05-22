@@ -13,8 +13,7 @@ body{
 /* HERO */
 
 .hero{
-    background:linear-gradient(135deg,#b8e7ff,#d9c6ff);
-    padding:30px 60px 80px;
+    background:linear-gradient(135deg,#ffd6e7,#ffe5ec,#f8dfff);
 }
 
 .navbar{
@@ -26,13 +25,13 @@ body{
 
 .logo{
     font-size:2rem;
-    color:#4b3f72;
+    color:#c45c8a;
 }
 
 .menu a{
     text-decoration:none;
     margin-left:20px;
-    color:#4b3f72;
+    color:#c45c8a;
     font-weight:700;
 }
 
@@ -78,12 +77,12 @@ body{
 }
 
 .teacher-btn{
-    background:#6c63ff;
+    background:#ffb3c6;
     color:white;
 }
 
 .student-btn{
-    background:#ffb703;
+     background:#ffb703;
     color:white;
 }
 
@@ -101,7 +100,7 @@ body{
 .cards-section h2{
     font-size:3rem;
     margin-bottom:50px;
-    color:#4b3f72;
+    color:#c45c8a
 }
 
 .cards{
@@ -161,7 +160,7 @@ body{
 .student-text h2{
     font-size:3rem;
     margin-bottom:20px;
-    color:#4b3f72;
+    color:#c45c8a;
 }
 
 .teacher-text p,
