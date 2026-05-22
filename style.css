@@ -239,7 +239,16 @@ footer h3{
     font-size:2rem;
 }
 
+
 /* RESPONSIVE */
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    scroll-behavior:smooth;
+}
 
 @keyframes fadeUp{
     from{
@@ -296,7 +305,5 @@ footer h3{
     .student-cards{
         justify-content:center;
     }
-html{
-    scroll-behavior:smooth;
-}
+
 }
