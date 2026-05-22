@@ -69,7 +69,7 @@ body{
     line-height:1.7;
 }
 
-.buttons button{
+.buttons a{
     border:none;
     padding:15px 25px;
     border-radius:15px;
@@ -82,7 +82,7 @@ body{
     font-family:'Nunito', sans-serif;
 }
 
-.buttons button:hover{
+.buttons a:hover{
     transform:translateY(-5px);
 }
 
@@ -296,5 +296,7 @@ footer h3{
     .student-cards{
         justify-content:center;
     }
-
+html{
+    scroll-behavior:smooth;
+}
 }
