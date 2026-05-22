@@ -154,7 +154,7 @@ body{
 .teacher-text,
 .student-text{
     flex:1;
-    min-width:300px;
+    min-width:500px;
 }
 
 .teacher-text h2,
@@ -188,7 +188,7 @@ body{
 
 .teacher-image img,
 .student-image img{
-    width:320px;
+    width:220px;
 }
 
 /* TARJETAS ESTUDIANTE */
@@ -201,8 +201,8 @@ body{
 
 .student-card{
     background:#f8f5ff;
-    width:220px;
-    padding:25px;
+    width:180px;
+    padding:20px;
     border-radius:20px;
     transition:0.3s;
 }
@@ -254,9 +254,17 @@ footer h3{
 
     .teacher-content,
     .student-content{
-        padding:40px 25px;
-        text-align:center;
-    }
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:40px;
+    max-width:1000px;
+    margin:auto;
+    background:white;
+    padding:50px;
+    border-radius:30px;
+    box-shadow:0 10px 30px rgba(0,0,0,0.08);
+}
 
     .teacher-image img,
     .student-image img{
