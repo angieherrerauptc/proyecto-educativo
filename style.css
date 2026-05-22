@@ -18,14 +18,19 @@ body{
 
 .navbar{
     display:flex;
-    justify-content:space-between;
+    justify-content:center;
     align-items:center;
     margin-bottom:60px;
 }
 
 .logo{
-    font-size:2rem;
+    font-family:'Pacifico', cursive;
+    font-size:3rem;
     color:#c45c8a;
+    text-align:center;
+    line-height:1.3;
+    text-shadow:0 4px 10px rgba(255,255,255,0.7);
+    letter-spacing:2px;
 }
 
 .menu a{
