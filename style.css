@@ -240,8 +240,13 @@ body{
 
 .student-cards{
     display:flex;
-    gap:20px;
+    justify-content:center;
+    align-items:stretch;
+    gap:30px;
     flex-wrap:wrap;
+
+    max-width:900px;
+    margin:auto;
 }
 
 .student-card{
