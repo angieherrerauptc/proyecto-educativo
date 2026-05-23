@@ -231,7 +231,16 @@ body{
     transform:scale(1.05);
 }
 
-.teacher-image img,
+.teacher-image img{
+    width:260px;
+    border-radius:25px;
+    box-shadow:0 15px 30px rgba(0,0,0,0.12);
+    object-fit:cover;
+}
+
+.student-image img{
+    width:220px;
+}
 .student-image img{
     width:220px;
 }
