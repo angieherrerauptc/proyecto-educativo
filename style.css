@@ -245,6 +245,7 @@ body{
 }
 
 .student-card{
+    border:2px solid transparent;
     background:#f8f5ff;
     width:180px;
     padding:20px;
@@ -256,6 +257,8 @@ body{
 }
 
 .student-card:hover{
+    border:2px solid #ffb3c6;
+    background:white;
     transform:translateY(-12px) scale(1.05);
     box-shadow:0 15px 30px rgba(255,179,198,0.4);
 }
