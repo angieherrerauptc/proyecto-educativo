@@ -245,10 +245,14 @@ body{
     padding:20px;
     border-radius:20px;
     transition:0.3s;
+    cursor:pointer;
+    position:relative;
+    overflow:hidden;
 }
 
 .student-card:hover{
-    transform:translateY(-8px);
+    transform:translateY(-12px) scale(1.05);
+    box-shadow:0 15px 30px rgba(255,179,198,0.4);
 }
 
 .student-card h3{
