@@ -171,7 +171,11 @@ body{
 
 /* DOCENTE Y ESTUDIANTE */
 
-.teacher-section,
+
+.teacher-section{
+    padding:100px 30px;
+    background:linear-gradient(180deg,#f8f5ff,#fff0f5);
+}
 .student-section{
     padding:100px 30px;
     background:linear-gradient(180deg,#fff0f5,#f8f5ff);
