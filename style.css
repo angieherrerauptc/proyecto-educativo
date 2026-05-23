@@ -316,47 +316,108 @@ body{
 
 @media(max-width:900px){
 
+    .hero{
+        padding:30px 20px 60px;
+    }
+
     .navbar{
         flex-direction:column;
         gap:20px;
+        padding:20px;
+    }
+
+    .menu{
+        flex-direction:column;
+        width:100%;
+        align-items:center;
+    }
+
+    .menu a{
+        width:100%;
+        max-width:250px;
+    }
+
+    .logo{
+        font-size:1.8rem;
     }
 
     .hero-content{
         flex-direction:column;
         text-align:center;
-        animation:fadeUp 1s ease;
+        gap:40px;
     }
 
     .hero-text h2{
-        font-size:2.5rem;
+        font-size:2.2rem;
+    }
+
+    .hero-text p{
+        font-size:1rem;
+    }
+
+    .buttons{
+        display:flex;
+        flex-direction:column;
+        gap:15px;
+        align-items:center;
+    }
+
+    .buttons a{
+        width:100%;
+        max-width:280px;
     }
 
     .hero-image img{
-        width:230px;
+        width:220px;
+    }
+
+    .cards-section h2,
+    .teacher-text h2,
+    .student-text h2{
+        font-size:2rem;
+    }
+
+    .cards{
+        flex-direction:column;
+        align-items:center;
+    }
+
+    .card{
+        width:100%;
+        max-width:320px;
     }
 
     .teacher-content,
     .student-content{
-    display:flex;
-    align-items:center;
-    justify-content:space-between;
-    gap:40px;
-    max-width:1000px;
-    margin:auto;
-    background:white;
-    padding:50px;
-    border-radius:30px;
-    box-shadow:0 10px 30px rgba(0,0,0,0.08);
-}
+        flex-direction:column;
+        text-align:center;
+        padding:35px 20px;
+    }
+
+    .teacher-text,
+    .student-text{
+        min-width:100%;
+    }
 
     .teacher-image img,
     .student-image img{
-        width:220px;
+        width:180px;
     }
 
     .student-cards{
-        justify-content:center;
+        flex-direction:column;
+        align-items:center;
     }
+
+    .student-card{
+        width:100%;
+        max-width:280px;
+    }
+
+    footer h3{
+        font-size:1.5rem;
+    }
+
 }
 
 @keyframes float{
