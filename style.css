@@ -53,22 +53,18 @@ body{
 
 .menu{
     display:flex;
-    gap:15px;
+    gap:px;
 }
 
 .menu a{
+    background:rgba(255,255,255,0.5);
     text-decoration:none;
     color:#c45c8a;
     font-weight:700;
-
     min-width:140px;
-
     text-align:center;
-
     padding:12px 20px;
-
-    border-radius:15px;
-
+    border-radius:50px;
     transition:0.3s;
 }
 
@@ -131,6 +127,7 @@ body{
 }
 
 .hero-image img{
+    animation:float 4s ease-in-out infinite;
     width:280px;
 }
 
@@ -338,6 +335,21 @@ body{
 
     .student-cards{
         justify-content:center;
+    }
+}
+
+@keyframes float{
+
+    0%{
+        transform:translateY(0px);
+    }
+
+    50%{
+        transform:translateY(-15px);
+    }
+
+    100%{
+        transform:translateY(0px);
     }
 
 }
