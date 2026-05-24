@@ -374,17 +374,19 @@ body::before{
 
     position:fixed;
 
-    top:-100px;
-    left:-100px;
+    top:120px;
+    left:-120px;
 
-    width:300px;
-    height:300px;
+    width:420px;
+    height:420px;
 
-    background:rgba(255,182,193,0.25);
+    background:#ffb3c6;
+
+    opacity:0.35;
 
     border-radius:50%;
 
-    filter:blur(80px);
+    filter:blur(120px);
 
     z-index:-1;
 }
@@ -394,17 +396,19 @@ body::after{
 
     position:fixed;
 
-    bottom:-100px;
-    right:-100px;
+    bottom:80px;
+    right:-120px;
 
-    width:350px;
-    height:350px;
+    width:420px;
+    height:420px;
 
-    background:rgba(200,170,255,0.25);
+    background:#d8b4ff;
+
+    opacity:0.35;
 
     border-radius:50%;
 
-    filter:blur(90px);
+    filter:blur(120px);
 
     z-index:-1;
 }
