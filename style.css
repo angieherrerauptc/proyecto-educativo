@@ -8,7 +8,6 @@ body{
     font-family:'Nunito', sans-serif;
     background:#f4f9ff;
     color:#333;
-    overflow-x:hidden;
 }
 
 /* HERO */
@@ -119,7 +118,7 @@ body{
     justify-content:space-between;
     align-items:center;
     gap:60px;
-    max-width:1000px;
+    max-width:1200px;
     margin:auto;
 }
 
@@ -229,7 +228,7 @@ body{
     justify-content:center;
     gap:60px;
     flex-wrap:wrap;
-    max-width:1000px;
+    max-width:1200px;
     margin:auto;
     background:white;
     padding:60px;
@@ -257,7 +256,7 @@ body{
     margin-bottom:30px;
 }
 
-.teacher-text button{
+.teacher-link button{
     padding:15px 30px;
     border:none;
     border-radius:15px;
@@ -268,7 +267,7 @@ body{
     transition:0.3s;
 }
 
-.teacher-text button:hover{
+.teacher-link button:hover{
     transform:scale(1.05);
 }
 
@@ -452,46 +451,6 @@ body::after{
     filter:blur(120px);
 
     z-index:-1;
-}
-
-.cards-section,
-.teacher-section,
-.student-section{
-    position:relative;
-}
-
-.cards-section::before,
-.teacher-section::before,
-.student-section::before{
-    content:"";
-
-    position:absolute;
-
-    width:300px;
-    height:300px;
-
-    border-radius:50%;
-
-    background:rgba(255,179,198,0.18);
-
-    filter:blur(100px);
-
-    z-index:0;
-}
-
-.cards-section::before{
-    top:50px;
-    left:-120px;
-}
-
-.teacher-section::before{
-    top:100px;
-    right:-120px;
-}
-
-.student-section::before{
-    bottom:50px;
-    left:-120px;
 }
 
 @media(max-width:900px){
