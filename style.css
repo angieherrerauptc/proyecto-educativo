@@ -460,22 +460,6 @@ footer h3{
     font-size:2rem;
 }
 
-/* EFECTOS LATERALES */
-
-body::before{
-    content:"";
-    position:fixed;
-    top:120px;
-    left:-120px;
-    width:420px;
-    height:420px;
-    background:#ffb3c6;
-    opacity:0.35;
-    border-radius:50%;
-    filter:blur(120px);
-    z-index:-1;
-}
-
 body::after{
     content:"";
 
