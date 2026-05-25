@@ -516,23 +516,15 @@ footer h3{
 
 body::before{
     content:"";
-
     position:fixed;
-
     top:120px;
     left:-120px;
-
     width:420px;
     height:420px;
-
     background:#ffb3c6;
-
     opacity:0.35;
-
     border-radius:50%;
-
     filter:blur(120px);
-
     z-index:-1;
 }
 
@@ -686,4 +678,120 @@ body::after{
         transform:translateY(0px);
     }
 
+}
+
+/* BOTÓN NEURODIVERGENTE */
+
+.neuro-btn{
+    background:#ffb3c6;
+    color:white;
+}
+
+.neuro-btn:hover{
+    transform:translateY(-5px);
+}
+
+/* AJUSTE HERO PRINCIPAL */
+
+.hero{
+    min-height:100vh;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+/* LANDING PRINCIPAL */
+
+.hero{
+    min-height:100vh;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.main-title{
+    font-size:4.5rem;
+    line-height:1.1;
+    color:#c45c8a;
+    margin-bottom:25px;
+
+    font-family:'Noto Serif JP', serif;
+}
+
+.main-description{
+    font-size:1.3rem;
+    line-height:1.8;
+    margin-bottom:40px;
+    max-width:650px;
+}
+
+/* BOTONES */
+
+.main-buttons{
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.main-buttons a{
+    padding:18px 30px;
+    font-size:1.05rem;
+}
+
+.teacher-btn{
+    background:#ffb3c6;
+    color:white;
+}
+
+.student-btn{
+    background:#ffb3c6;
+    color:white;
+}
+
+.neuro-btn{
+    background:#ffb3c6;
+    color:white;
+}
+
+.neuro-btn:hover,
+.teacher-btn:hover,
+.student-btn:hover{
+    transform:translateY(-5px);
+}
+
+/* RESPONSIVE */
+
+@media(max-width:900px){
+
+    .main-title{
+        font-size:2.8rem;
+        text-align:center;
+    }
+
+    .main-description{
+        font-size:1rem;
+        text-align:center;
+    }
+
+    .main-buttons{
+        justify-content:center;
+    }
+
+}
+/* ORGANIZACIÓN TARJETAS ESTUDIANTES */
+
+.student-text .teacher-cards{
+    max-width:700px;
+}
+/* CURSOR PERSONALIZADO */
+
+body{
+    cursor:url("img/cursor.png"), auto;
+}
+
+a,
+button,
+.teacher-card,
+.student-card{
+    cursor:pointer;
 }
