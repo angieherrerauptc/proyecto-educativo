@@ -26,27 +26,6 @@ body{
     overflow:hidden;
 }
 
-
-.hero::after{
-    content:"";
-
-    position:absolute;
-
-    width:300px;
-    height:300px;
-
-    background:#d8b4ff;
-
-    border-radius:50%;
-
-    bottom:-120px;
-    left:-100px;
-
-    opacity:0.35;
-
-    filter:blur(90px);
-}
-
 /* NAVBAR */
 
 .navbar{
