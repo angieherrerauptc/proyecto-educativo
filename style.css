@@ -436,34 +436,43 @@ body{
 /* TARJETAS ESTUDIANTE */
 
 .student-cards{
-    display:flex;
-    justify-content:center;
-    align-items:stretch;
-    gap:30px;
-    flex-wrap:wrap;
+    display:grid;
 
-    max-width:900px;
-    margin:auto;
+    grid-template-columns:repeat(3, 300px);
+
+    justify-content:center;
+
+    gap:35px;
+
+    margin-top:40px;
 }
 
 .student-card{
     border:2px solid transparent;
-
     background:#f8f5ff;
-
-    width:180px;
-
-    padding:20px;
-
-    border-radius:20px;
-
+    width:300px;
+    min-height:320px;
+    padding:25px;
+    border-radius:25px;
     transition:0.3s;
-
-    cursor:pointer;
-
     position:relative;
-
     overflow:hidden;
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    align-items:center;
+    text-align:center;
+    box-shadow:0 8px 20px rgba(0,0,0,0.06);
+}
+
+.student-card:nth-child(4){
+    grid-column:1 / 2;
+    margin-left:170px;
+}
+
+.student-card:nth-child(5){
+    grid-column:2 / 3;
+    margin-left:170px;
 }
 
 .student-card:hover{
