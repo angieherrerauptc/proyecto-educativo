@@ -837,4 +837,48 @@ button,
 
     z-index:999;
 }
+/* IMAGEN DECORATIVA */
 
+.student-decoration{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.student-decoration img{
+    width:220px;
+    height:auto;
+
+    animation:float 4s ease-in-out infinite;
+
+    filter:drop-shadow(0 10px 20px rgba(0,0,0,0.15));
+}
+
+.student-decoration{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    width:100%;
+    max-width:320px;
+    min-height:320px;
+}
+
+.student-decoration img{
+    width:260px;
+    height:auto;
+
+    animation:float 4s ease-in-out infinite;
+
+    filter:drop-shadow(0 10px 20px rgba(0,0,0,0.15));
+
+    user-select:none;
+    pointer-events:none;
+}
+.student-decoration{
+    background:#f8f5ff;
+
+    border-radius:25px;
+
+    box-shadow:0 8px 20px rgba(0,0,0,0.06);
+}
