@@ -795,3 +795,38 @@ button,
 .student-card{
     cursor:pointer;
 }
+/* BOTONES DE DESCARGA */
+
+.download-btn{
+    display:block;
+
+    width:100%;
+
+    margin-top:10px;
+
+    padding:10px 15px;
+
+    background:#c45c8a;
+
+    color:white;
+
+    text-decoration:none;
+
+    border-radius:10px;
+
+    font-size:0.95rem;
+
+    font-weight:bold;
+
+    text-align:center;
+
+    transition:0.3s;
+
+    box-shadow:0 5px 15px rgba(0,0,0,0.08);
+}
+
+.download-btn:hover{
+    background:#ff8fab;
+
+    transform:translateY(-2px);
+}
