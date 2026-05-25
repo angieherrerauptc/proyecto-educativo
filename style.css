@@ -786,7 +786,7 @@ body::after{
 /* CURSOR PERSONALIZADO */
 
 body{
-    cursor:url("img/cursor.png")16 16, auto;
+    cursor: pointer;
 }
 
 a,
