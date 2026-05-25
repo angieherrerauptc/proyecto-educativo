@@ -864,15 +864,3 @@ button,
 .student-content {
     position: relative;
 }
-
-.student-decoration {
-    position: absolute;
-    right: 20px;
-    top: 120px;
-    width: 180px;
-}
-
-.student-decoration img {
-    width: 100%;
-    height: auto;
-}
