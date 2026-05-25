@@ -11,48 +11,40 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700;900&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-<header id="inicio" class="hero">
-
-    <nav class="navbar">
-
-        <h1 class="logo">
-            FÁBRICA DE FIGURAS LITERARIAS
-        </h1>
-
-        <div class="menu">
-            <a href="#inicio">Inicio</a>
-            <a href="#docentes">Docentes</a>
-            <a href="#estudiantes">Estudiantes</a>
-        </div>
-
-    </nav>
+<header class="hero">
 
     <div class="hero-content">
 
         <div class="hero-text">
 
-            <h2>
-                Plataforma educativa inclusiva y divertida
-            </h2>
+            <h1 class="main-title">
+                FÁBRICA DE FIGURAS LITERARIAS
+            </h1>
 
-            <p>
-                Recursos para docentes y experiencias amigables
-                para estudiantes con aprendizaje accesible.
+            <p class="main-description">
+                Plataforma educativa inclusiva diseñada para docentes,
+                estudiantes y personas neurodivergentes,
+                promoviendo un aprendizaje creativo,
+                accesible e interactivo.
             </p>
 
-            <div class="buttons">
+            <div class="buttons main-buttons">
 
-                <a href="#docentes" class="teacher-btn">
+                <a href="docentes.html" class="teacher-btn">
                     Soy Docente
                 </a>
 
-                <a href="#estudiantes" class="student-btn">
+                <a href="estudiantes.html" class="student-btn">
                     Soy Estudiante
+                </a>
+
+                <a href="neurodivergente.html" class="neuro-btn">
+                    Soy Neurodivergente
                 </a>
 
             </div>
@@ -60,200 +52,14 @@
         </div>
 
         <div class="hero-image">
-            <img src="https://cdn-icons-png.flaticon.com/512/2436/2436636.png" alt="">
+
+            <img src="https://cdn-icons-png.flaticon.com/512/2436/2436636.png" alt="Educación inclusiva">
+
         </div>
 
     </div>
 
 </header>
-
-<!-- CARDS -->
-
-<section class="cards-section">
-
-    <h2>¿Qué encontrarás?</h2>
-
-    <div class="cards">
-
-        <div class="card">
-            <h3>📚 Recursos PDF</h3>
-
-            <p>
-                Material educativo descargable para docentes.
-            </p>
-        </div>
-
-        <div class="card">
-
-            <h3>🎨 Actividades Interactivas</h3>
-
-            <p>
-                Juegos y ejercicios para niños.
-            </p>
-
-        </div>
-
-        <div class="card">
-
-            <h3>💙 Aprendizaje Inclusivo</h3>
-
-            <p>
-                Diseño accesible para estudiantes con autismo.
-            </p>
-
-        </div>
-
-    </div>
-
-</section>
-
-<!-- DOCENTES -->
-
-<section id="docentes" class="teacher-section">
-
-    <div class="teacher-content">
-
-        <div class="teacher-text">
-
-            <h2>👩‍🏫 Recursos para Docentes</h2>
-
-            <p>
-                Explora materiales educativos, estrategias inclusivas
-                y recursos pedagógicos diseñados para fortalecer
-                el aprendizaje en el aula.
-            </p>
-
-            <a href="#teacher-resources" class="teacher-link">
-                Explorar Recursos
-            </a>
-
-            <!-- RECURSOS -->
-
-            <div id="teacher-resources" class="teacher-cards">
-
-                <a href="docentes.html#actividades-docente" class="teacher-card">
-
-
-                    <div class="teacher-emoji">📄</div>
-
-                    <h3>PDFs</h3>
-
-                    <p>
-                        Guías y material descargable.
-                    </p>
-
-                </a>
-
-                <div class="teacher-card">
-
-                    <div class="teacher-emoji">🧠</div>
-
-                    <h3>Estrategias</h3>
-
-                    <p>
-                        Ideas pedagógicas inclusivas.
-                    </p>
-
-                </div>
-
-                <a href="docentes.html#actividades-docente" class="teacher-card">
-
-                    <div class="teacher-emoji">📝</div>
-
-                    <h3>Actividades</h3>
-
-                    <p>
-                        Ejercicios listos para imprimir.
-                    </p>
-
-                </a>
-
-            </div>
-
-        </div>
-
-        <div class="teacher-image">
-            <img src="img/profe.jpg" alt="Profesora">
-        </div>
-
-    </div>
-
-</section>
-
-<!-- ESTUDIANTES -->
-
-<section id="estudiantes" class="student-section">
-
-    <div class="student-content">
-
-        <div class="student-image">
-            <img src="https://cdn-icons-png.flaticon.com/512/1995/1995574.png" alt="">
-        </div>
-
-        <div class="student-text">
-
-            <h2>🧒 Zona Estudiante</h2>
-
-            <p>
-                Actividades interactivas, juegos visuales
-                y aprendizaje accesible para niños.
-            </p>
-
-            <div class="student-cards">
-
-                <div class="student-card">
-
-                    <div class="emoji">🔤</div>
-
-                    <h3>Lectura</h3>
-
-                    <p>
-                        Aprende palabras y sonidos.
-                    </p>
-
-                </div>
-
-                <div class="student-card">
-
-                    <div class="emoji">🎨</div>
-
-                    <h3>Colores</h3>
-
-                    <p>
-                        Actividades visuales divertidas.
-                    </p>
-
-                </div>
-
-                <div class="student-card">
-
-                    <div class="emoji">🧩</div>
-
-                    <h3>Juegos</h3>
-
-                    <p>
-                        Ejercicios interactivos fáciles.
-                    </p>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
-
-<footer>
-
-    <h3>FÁBRICA DE FIGURAS LITERARIAS</h3>
-
-    <p>
-        Plataforma educativa inclusiva para docentes y estudiantes.
-    </p>
-
-</footer>
 
 <script src="script.js"></script>
 
