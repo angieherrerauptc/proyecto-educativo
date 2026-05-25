@@ -437,16 +437,20 @@ body{
 
 .student-cards{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 40px;
+    justify-items: center;
+    align-items: start;
     max-width: 1100px;
     margin: 40px auto 0;
+    padding: 0 20px;
 }
 
 .student-card{
     border:2px solid transparent;
     background:#f8f5ff;
-    width:100px;
+    width:100%;
+    max-width:320px;
     min-height:320px;
     padding:25px;
     border-radius:25px;
